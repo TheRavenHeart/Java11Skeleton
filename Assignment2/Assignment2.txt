@@ -7,33 +7,47 @@ Name: Jaden
 
 3. The main method is the long name for main. The main is the starting line that it reads.
 
-4. A string is a sequence of characters that a program reads and can if its say a string literal print out.
+4. A string is a sequence of characters that a program reads and can if its in quotes.
 
 5. The Capitilzation is important because it can mislead a computer program
 
 6. A bug is something that is wrong in the code that makes your program either not work or makes it do something incorrectly  
 
-7. System.out.println prints whatever you put after it as long as its in brackets and in quotation marks
+7. System.out.println prints whatever you put after it as long as its in brackets and in quotation marks on a new line.
 
-8. just write something after two backslashs
+8. just write something after two backslashs: // This is what a comment would be
 
-9. 
+9. you put multiline comments its an astieriks and a forward slash on two seprate line:
+/**
+* hello
+*
+*still here
+*
+*/
 
-10.
+10. Hello Mercury!
+Hello Venus!
+Hello Earth!
+Hello Mars!
+Hello Jupiter!
+Hello Saturn!
+Hello Uranus!
+Hello Neptune!
+Hello Pluto!
 
-11.
+11. the 8 types are byte, short, int, long, float, double, char, boolean.
 
-12.
+12. long 
 
-13.
+13. double
 
-14.
-a.
-b.
+14. 
+a. int
+b. double
 
-15.
+15. 19349
 
-16.
+16. a single character
 
-17.
+17. false
 

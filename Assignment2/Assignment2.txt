@@ -1,23 +1,23 @@
-Name:
+Name: Jaden
 
 
-1.
+1. The diffrence between source code and bytecode is source code is something that humans can read and byte code is something that humans cannot really read.
 
-2.
+2. A class is a section of a program.
 
-3.
+3. The main method is the long name for main. The main is the starting line that it reads.
 
-4.
+4. A string is a sequence of characters that a program reads and can if its say a string literal print out.
 
-5.
+5. The Capitilzation is important because it can mislead a computer program
 
-6.
+6. A bug is something that is wrong in the code that makes your program either not work or makes it do something incorrectly  
 
-7.
+7. System.out.println prints whatever you put after it as long as its in brackets and in quotation marks
 
-8.
+8. just write something after two backslashs
 
-9.
+9. 
 
 10.
 

@@ -45,7 +45,7 @@ Hello Pluto!
 a. int
 b. double
 
-15. 19349
+15. 19345
 
 16. a single character
 

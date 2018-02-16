@@ -1,38 +1,40 @@
 Assignment 5
 Name:
 
-1.
+1. System.out and System.err
 
-2.
+2. System.out
 
-3.
+3. import java.util.Scanner;
 
-4.
+4. java.util
 
 5.
-    5.1.
+    5.1. import java.util.Scanner;
 
-    5.2.
+    5.2. Scanner scan = new Scanner( System.in);
 
-    5.3.
+    5.3. inData = scan.nextLine();
 
-6.
+6. Yes. the other line you'd have to change is inData = scan.nextLine() you would have to change it to inData = dog.nextLine()
 
-7.
+7.  inData = scan.nextLine();
 
 8. This is in NameEcho.java
 
 9. This is in NameEchoAlt.java
 
-10.
+10. nextInt()
 
 11.
-    11.1.
+    11.1. 2116
 
-    11.2.
+    11.2. -1794967296
 
-    11.3.
+    11.3. instead of int put long
 
 12. This is in AddThree.java
 
-13. 
+13. 17 / 12 is 1
+17 % 12 is 5
+1 * 12 + 5 is 17

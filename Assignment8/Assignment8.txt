@@ -1,18 +1,18 @@
 Assignment 7
-Name:
+Name: Jaden Rius Killer-Stanway
 
-1.
+1. Doubles are an approximation to a number and are not exact
 
-2.
+2. true or false
 
-3.
+3. There are six diffrent varietes
 
-4.
+4. If you put final in front of a varible means that it cannot be changed
 
-5.
+5. 90% which is inncorect a B because 86% is an A there for this quiz is bad and should be changed
 
-6.
+6. &&
 
-7.
+7. ||
 
-8.
+8. !

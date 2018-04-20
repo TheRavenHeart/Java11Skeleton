@@ -2,7 +2,6 @@ import java.util.Scanner;
 import java.io.*;
 
 class GetNumbersFromFile {
-
     public static void main(String[] args) throws IOException {
 
         File file = new File("data.txt");

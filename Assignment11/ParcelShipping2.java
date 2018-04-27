@@ -13,7 +13,7 @@ class ParcelShipping2 {
         width = sc.nextDouble();
         System.out.println("Please enter the height.");
         height = sc.nextDouble();
-        System.out.println("Please enter the depth.");
+        System.out.println("Please enter the depth.");      // this is all the same as before
         depth = sc.nextDouble();
         Volume = width * height * depth;
         OverC = 0;
@@ -32,9 +32,9 @@ class ParcelShipping2 {
             OverC = OverC + 10;
         }
         System.out.println("You cost is: " + ShippingC + " + extra charge of: " + OverC);
-        System.out.println("Press 1 if you would like to continue and 0 if not");
+        System.out.println("Press 1 if you would like to continue and 0 if not"); // this just checks if you want to do it again
         While = sc.nextDouble();
     }
-    System.out.println("Thanks for using my code, bye.");
+    System.out.println("Thanks for using my code, bye."); // mcuh politer
     }
 }

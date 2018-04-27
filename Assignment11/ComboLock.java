@@ -9,32 +9,32 @@ class ComboLock {
         int attempt = 0;
         boolean open = false;
 
-        while (attempt < 3 && !open) {
-            // try a combination, setting open to "true" if correct
+        while (attempt < 3 && !open) { // until you have completed three tries it allows you to try
+            
             boolean correct = true;
 
-            //First Number
+            // the first Number
             System.out.println("\nEnter first number: ");
             numb = scan.nextInt();
 
             if (numb < lockFirstO && numb > lockFirstT)
                 correct = false;
 
-            //Second Number
+            //the second number
             System.out.println("Enter second number: ");
             numb  = scan.nextInt();
 
             if (numb < lockSecondO && numb > lockSecondT)
                 correct = false;
 
-            //Third Number
+            // the third number
             System.out.println("Enter third number: ");
             numb  = scan.nextInt();
 
             if (numb < lockThirdO && numb > lockThirdT )
                 correct = false;
 
-            //Result
+            // sees if the lock opens or not
             if (correct) {
                 System.out.println("Lock opens");
                 open = true;

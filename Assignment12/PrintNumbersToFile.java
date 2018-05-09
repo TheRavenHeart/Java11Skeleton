@@ -1,3 +1,4 @@
+Which two terms represent a vector quantity and the scalar quantity of the vector's magnitude, respectively?
 import java.util.Scanner;
 import java.io.*;
 

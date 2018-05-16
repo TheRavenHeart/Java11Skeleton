@@ -5,31 +5,30 @@ class GuessGame {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);//hello
+        Scanner scan = new Scanner(System.in);
         Random generateRandom = new Random();
         int num, guess, guesses, Choice;
         guesses = 0;
         Choice = 1;
         while(Choice == 1){
-        num = generateRandom.nextInt(100) + 1;
-        do { //putting a do here instead of the while guarantee’s that the loop will execute at least once…with a while you have to make sure the conditions will cause the loop to happen at least once.
-
+        num = generateRandom.nextInt(100) + 1; //generates a diffrent number each time
+        do { // makes sure it loops at least once and its in its own loop
             System.out.print("Guess the number: ");
             guess = scan.nextInt();
 
-            if (guess > num)
+            if (guess > num) // if the number to high it prints to high
                 System.out.println("Too High");
 
-            if (guess < num)
+            if (guess < num)// does the same as above but if its to low
                 System.out.println("Too Low");
-            guesses ++;
+            guesses ++;// counts the amount guesses
         }
-        while (num != guess);//this means while num is not equal to guess.. by putting the while here it evaluates after you have guessed
+        while (num != guess);
         System.out.println("You got it");
         System.out.println("your total number of guesses was: " + guesses);
         System.out.println("Would you like to restart? Please press 1 for yes and 0 if not.");
         Choice = scan.nextInt();
-        if(Choice == 0){
+        if(Choice == 0){ // this breaks the loop if they press 0 if not it restarts
             break;
         }
     }

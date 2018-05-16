@@ -1,10 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
-
 class SumRandom {
-
     public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
         Random generateRandom = new Random();
         int num, counter,sNum;
@@ -12,12 +9,11 @@ class SumRandom {
         for (counter = 1; counter <= 100; counter++) {
             num = generateRandom.nextInt(25) + 1;
             System.out.println(counter + " " + num);
-            sNum = sNum + num;
+            sNum = sNum + num;// adds the sum of the numbers
         }
-        System.out.println("The sum of numbers are: " + sNum);
+        System.out.println("The sum of numbers are: " + sNum); // prints the sum of the number
         System.out.print("Let's enter a number just for fun:");
         num = scan.nextInt();
         System.out.println("The number you entered was: " + num);
-
     }
 }

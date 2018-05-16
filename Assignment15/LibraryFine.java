@@ -14,10 +14,10 @@ public static void main(String[] args){
         continue;
     }
     System.out.println("Enter the fine amount letter: ");
-    Fine = sc.nextLine();
-    Fine = Fine.toUpperCase();
-    char FineChar = Fine.charAt(0);
-    switch(FineChar){
+    Fine = sc.nextLine(); // sets the fine amount letter
+    Fine = Fine.toUpperCase(); // Changes to upper case
+    char FineChar = Fine.charAt(0); // changes 
+    switch(FineChar){ // switches the end depending on what letter is entered abovev
         case 'A':
             fine = 0.10;
             break;

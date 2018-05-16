@@ -10,10 +10,10 @@ public static void main(String[] args){
     while(Times <= Num){
         System.out.println(Num +"*" + Times + " = ");
         Answer = sc.nextInt();
-        Tanswer = Num * Times;
+        Tanswer = Num * Times; // does the times table 
         if(Answer == Tanswer){ // checks if the answer is correct
             System.out.println("Correct!");
-            Correct ++;
+            Correct ++; // adds to the amount of correct times
             
         } else {
             System.out.println("Incorrect! The Answer is " + Tanswer);

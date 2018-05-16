@@ -10,7 +10,7 @@ public static void main(String[] args){
         if(Num == 0){
             continue;
         }
-        Tanswer = Num * Num;
+        Tanswer = Num * Num; // squares the number
         System.out.println(Num + "^2 =" + Tanswer); 
     }
     System.out.println("Bye");

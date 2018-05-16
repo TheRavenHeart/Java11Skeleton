@@ -7,7 +7,7 @@ class ReverserVersion1 {
         
         int temp;
         
-        // reverse the data
+        // reverses the data
         for (int j = 0; j < data.length / 2; j++) {
             temp = data[data.length - j - 1] ;
             data[data.length - j - 1] = data[j];
@@ -15,7 +15,7 @@ class ReverserVersion1 {
         }
         
         // write out the new data
-        for (int j = 0; j < data.length; j++) {
+        for (int j = 0; j < data.length; j++) { // writes out the new data
             System.out.println(data[j]);
         }
 

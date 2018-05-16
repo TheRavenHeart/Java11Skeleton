@@ -10,15 +10,15 @@ class ThreeSums {
         int totalSum = 0;
 
         for (int index = 0; index < data.length; index++) {
-            if (data[index] % 2 == 0){
-                evenSum = evenSum + data[index];
+            if (data[index] % 2 == 0){ // checks to see if they can be divided by 2
+                evenSum = evenSum + data[index]; // adds all the even numbers
             } else{
-                oddSum = oddSum + data[index];
+                oddSum = oddSum + data[index]; // adds all the odd numbers
             }
             
         }
         totalSum = evenSum + oddSum;
-        // write out the three sums
+        // writes out the three sums
         System.out.println("The even sum is: " + evenSum +"  the odd sum is: " + oddSum + " the total sum is: " + totalSum);
 
     }
